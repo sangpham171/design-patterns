@@ -18,7 +18,7 @@ public class Project implements TodoList {
                .append("</h1>\n");
         builder.append("<ul>\n");
         for (TodoList todoList : todoLists) {
-            builder.append(todoList.getHtml()+"\n");
+            builder.append(todoList.getHtml() + "\n");
         }
         builder.append("</ul>");
         return builder.toString();

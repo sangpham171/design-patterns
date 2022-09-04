@@ -1,4 +1,4 @@
-public class RandomFactory implements AnimalFactory{
+public class RandomFactory implements AnimalFactory {
     @Override
     public Animal createAnimal(String name) {
         int random = (int) (Math.random() * 3);

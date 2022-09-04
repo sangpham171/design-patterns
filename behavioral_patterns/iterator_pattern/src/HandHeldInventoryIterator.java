@@ -7,10 +7,12 @@ public class HandHeldInventoryIterator implements InventoryIterator {
     }
 
     public boolean hasNext() {
-        return index < inventory.getItems().size();
+        return index < inventory.getItems()
+                                .size();
     }
 
     public Item next() {
-        return inventory.getItems().get(index++);
+        return inventory.getItems()
+                        .get(index++);
     }
 }

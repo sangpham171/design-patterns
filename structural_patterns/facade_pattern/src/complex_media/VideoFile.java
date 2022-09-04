@@ -13,16 +13,16 @@ public class VideoFile {
         return codecType;
     }
 
+    public void setCodecType(String codecType) {
+        this.codecType = codecType;
+    }
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setCodecType(String codecType) {
-        this.codecType = codecType;
     }
 
 }

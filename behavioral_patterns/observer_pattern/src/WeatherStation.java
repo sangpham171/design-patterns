@@ -5,12 +5,12 @@ public class WeatherStation implements IObservable {
     private List<IObserver> observers;
     private float temperature;
 
-    public float getTemperature() {
-        return temperature;
-    }
-
     public WeatherStation() {
         this.observers = new ArrayList<>();
+    }
+
+    public float getTemperature() {
+        return temperature;
     }
 
     public void setMeasurements(float temperature) {

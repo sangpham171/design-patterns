@@ -15,7 +15,7 @@ public class ShortFormView extends View {
 
         String result = "ShortForm: \n";
         for (IResource resource : resourceList) {
-            result += resource.title() +"\n";
+            result += resource.title() + "\n";
         }
         return result;
     }

@@ -1,7 +1,7 @@
 public class Todo implements TodoList {
     private String text;
 
-    public Todo (String text) {
+    public Todo(String text) {
         this.text = text;
     }
 

@@ -1,7 +1,5 @@
 package facade;
 
-import complex_media.*;
-
 import java.io.File;
 
 public class VideoConversionFacade {

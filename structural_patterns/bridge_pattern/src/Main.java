@@ -1,11 +1,13 @@
-import resources.*;
 import view.LongFormView;
 import view.ShortFormView;
 import view.View;
 
 public class Main {
     public static void main(String[] args) {
-        Book book = new Book("Design Patterns", "Gamma et al.", "A book about patterns", "http://wikipedia.org/Design_Patterns");
+        Book book = new Book("Design Patterns",
+                             "Gamma et al.",
+                             "A book about patterns",
+                             "http://wikipedia.org/Design_Patterns");
         Artist artist = new Artist("Mickael Jackson", "The king of pop", "http://mickaeljackson.com");
 
         IResource bookResource = new BookResource(book);

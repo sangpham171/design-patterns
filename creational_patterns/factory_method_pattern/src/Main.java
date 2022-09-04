@@ -3,7 +3,7 @@ public class Main {
         AnimalFactory animalFactory = new UniformFactory();
         Animal animal = animalFactory.createAnimal("Fido");
         System.out.println("Animal type : " + animal.getClass()
-                                                   .getSimpleName());
+                                                    .getSimpleName());
 
         animal = animalFactory.createAnimal("Foo");
         System.out.println("Animal type : " + animal.getClass()

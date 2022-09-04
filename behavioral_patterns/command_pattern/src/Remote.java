@@ -1,4 +1,3 @@
-
 public class Remote {
     private ICommand on;
     private ICommand off;

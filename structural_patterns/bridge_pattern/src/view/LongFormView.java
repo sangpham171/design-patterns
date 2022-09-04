@@ -13,7 +13,7 @@ public class LongFormView extends View {
 
         String result = "LongForm: \n";
         for (IResource resource : resourceList) {
-            result += resource.title() + " " + resource.url() + " " + resource.snippet() +"\n";
+            result += resource.title() + " " + resource.url() + " " + resource.snippet() + "\n";
         }
         return result;
     }

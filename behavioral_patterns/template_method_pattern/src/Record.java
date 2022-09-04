@@ -1,5 +1,5 @@
 public abstract class Record {
-    public void save(){
+    public void save() {
         beforeSave();
         try {
             System.out.println("Save to DB");
@@ -7,9 +7,13 @@ public abstract class Record {
         } catch (Exception e) {
             failSave();
         }
-    };
+    }
+
+    ;
 
     public abstract void beforeSave();
+
     public abstract void afterSave();
+
     public abstract void failSave();
 }
